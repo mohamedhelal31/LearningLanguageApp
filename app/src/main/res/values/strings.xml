@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Learning Language App</string>
+    <string name="categorie_numbers">Numbers</string>
+    <string name="categorie_family">Family</string>
+    <string name="categorie_color">Colors</string>
+    <string name="categorie_phrase">Phrases</string>
+
+</resources>

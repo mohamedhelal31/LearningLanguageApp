@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_bakground"
+    tools:context="com.example.helal.learninglanguageapp.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/categorie_style"
+        android:background="@color/categorie_numbers"
+        android:text="@string/categorie_numbers"
+        android:onClick="setOnClickNumbers"
+        />
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/categorie_style"
+        android:background="@color/categorie_family"
+        android:text="@string/categorie_family"
+        android:onClick="setOnClickFamily"
+        />
+    <TextView
+        android:id="@+id/color"
+        style="@style/categorie_style"
+        android:background="@color/categorie_color"
+        android:text="@string/categorie_color"
+        android:onClick="setOnClickColor"
+        />
+    <TextView
+        android:id="@+id/phrase"
+        style="@style/categorie_style"
+        android:background="@color/categorie_phrase"
+        android:text="@string/categorie_phrase"
+        android:onClick="setOnClickPrase"
+        />
+
+</LinearLayout>
